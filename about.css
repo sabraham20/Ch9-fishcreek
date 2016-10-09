@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+
+}
+body {
+  font-family: 'calibri', sans-serif;
+
+}
+main {
+  
+  height: 100vh;
+  background-size: cover;
+
+}
+.wrapper{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  float: left;
+  margin-top: 20px;
+  padding: 0px;
+}
+header {
+  height: 90px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+/*  background: rgba(30, 30, 30, 0.9); not sure */
+}
+header nav {
+  float: right;
+  margin-top: 32px;
+
+}
+header ul {
+  list-style-type: none;
+  float: left;
+}
+header nav a {
+
+  font-size: 20px;
+  font-family: calibri;
+  text-decoration: none;
+  letter-spacing: 1px;
+/*Hover Effect CSS Transition For Nav Text Color*/
+  color: #ffffff;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+header nav a:hover {
+  color: #1e1e1e;
+}
+header nav li {
+  float: left;
+  margin-left: 30px;
+}
+header:after {
+  display: block;
+  content: "";
+  clear:both;
+}
+.greeting {
+  width: 800px;
+  margin: 0 auto;
+  height: 242px;
+  padding-top: 108px;
+}
+.greeting p {
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 2px #000;
+  text-align: center;
+  margin-top: 90px;
+
+}
+.greeting a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  display: block;
+  width: 200px;
+  position: relative;
+  left: 300px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  /*Hover Effect CSS Transition For Call To Action Background Color*/
+  background: #1e1e1e;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+.greeting a:hover {
+  background: #26796e;
+}
+.greeting img {
+  margin: 50px 375px;
+  height: 50px;
+  display: block;
+}
+section#work-content {
+  height: 500px;
+  background: #ffffff;
+  margin-bottom: 100px;
+  box-shadow: inset 0px 3px 10px -3px #1e1e1e;
+}
+section#work-content:before {
+  display: block;
+  content: "";
+  clear: both;
+}
+.title-heading {
+  text-transform: uppercase;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 2rem;
+  color: #1e1e1e;
+}
+.box1 {
+  height: 250px;
+  background: lightgrey;
+  float: left;
+  width: 30%;
+  margin-top: 150px;
+  display: block;
+  margin-left: 20px;
+  position: relative;
+  top: -100px;
+}
+.box2 {
+  height: 250px;
+  background: lightgrey;
+  float: left;
+  width: 30%;
+  margin-top: 150px;
+  display: block;
+  margin-left: 20px;
+  position: relative;
+  top: -100px;
+}
+.box3 {
+  height: 250px;
+  background: lightgrey;
+  float: left;
+  width: 30%;
+  margin-top: 150px;
+  display: block;
+  margin-left: 20px;
+  position: relative;
+  top: -100px;
+}
